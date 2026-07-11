@@ -60,7 +60,7 @@ export const projects = [
         description: "A React application built to demonstrate core frontend concepts: reusable components, props-driven customization, state management, dynamic list rendering, and live API data fectching. Includes an interactive Pokédex card that fetches real-time data from PokeAPI using useEffect, plus a fully controlled multi-field contact form built with a single shared state object.",
         tags: ["React", "JavaScript (ES6+)", "REST APIs", "Vite", "Git"],
         githubUrl: "https://github.com/chinnynworie/react-skills-explorer",
-        liveUrl: " ",
+        liveUrl: "https://react-skills-explorer.vercel.app",
         image: "/projects/skills-explorer.png",
     },
 ];

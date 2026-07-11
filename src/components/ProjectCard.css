@@ -1,0 +1,85 @@
+.project-card {
+  background: var(--bg-card);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-content h3 {
+  font-size: 1.2rem;
+  color: var(--text);
+}
+
+.project-content p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-family: var(--font-code);
+  font-size: 0.75rem;
+  background: var(--bg);
+  color: var(--secondary);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.link-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--text-muted);
+}
+
+.link-btn.primary {
+  background: var(--secondary);
+  color: var(--bg);
+  border: none;
+}
+
+.link-btn:hover {
+  opacity: 0.85;
+}

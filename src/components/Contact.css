@@ -1,0 +1,39 @@
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+.contact-sub {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.contact-link:hover {
+  color: var(--secondary);
+}
+
+.resume-download {
+  display: inline-block;
+}

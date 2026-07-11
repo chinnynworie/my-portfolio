@@ -1,0 +1,17 @@
+.about h2 {
+  font-size: 2rem;
+  color: var(--text);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.about-bio {
+  max-width: 750px;
+  margin: 0 auto 20px auto;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.about-bio:last-child {
+  margin-bottom: 0;
+}

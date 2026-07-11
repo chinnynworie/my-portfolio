@@ -51,7 +51,7 @@ export const projects = [
         description: "My first full build from scratch - a responsive personal site combining HTML, CSS, and vanilla JavaScript. Features a gradient hero, dark/light mode toggle with localStorage persistence, a mobile hamburger menu, live API integrations (random quotes and Bible verses), and a validated contact form. Built to prove I could take a design from nothing to fully interactive without a framework.",
         tags: ["HTML5", "CSS3", "JavaScript", "REST APIs", "Git"],
         githubUrl: "https://github.com/chinnynworie/chinenye-portfolio",
-        liveUrl: " ",
+        liveUrl: "https://my-portfolio-pi-steel-hppvx9hw0c.vercel.app",
         image: "/projects/portfolio.png",
     },
     {
